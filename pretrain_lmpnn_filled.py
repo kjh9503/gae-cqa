@@ -11,7 +11,7 @@ import torch
 from torch.optim.lr_scheduler import ExponentialLR, LambdaLR, StepLR
 from torch.utils.data import DataLoader, WeightedRandomSampler
 
-from args_lmpnn import parse_args
+from args import parse_args
 from models import get_nbp_class
 from models import QueryGraphAutoencoder
 
