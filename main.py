@@ -10,7 +10,7 @@ import torch
 from torch.optim.lr_scheduler import ExponentialLR, LambdaLR, StepLR
 from torch.utils.data import DataLoader, WeightedRandomSampler
 
-from args_lmpnn import parse_args
+from args import parse_args
 from models import Query2Triple_orig
 from dataset import SingledirectionalOneShotIterator, query_structure_to_type, load_data, Q2TTrainDataset, Q2TTestDataset, flatten_query
 from tensorboardX import SummaryWriter
